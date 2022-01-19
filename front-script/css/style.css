@@ -72,14 +72,6 @@ html {
     background-color: #fff;
 }
 
-a,
-button,
-input[type="button"],
-input[type="submit"] {
-    text-decoration: none;
-    cursor: url('../img/mouse2.png'), pointer;
-    border: 0;
-}
 
 button {
     -webkit-user-select: none;
@@ -87,7 +79,7 @@ button {
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-    font-family: 'LostMINERegular', sans-serif;
+    font-family: 'Gotham SSm', sans-serif;
 }
 
 button:active,
@@ -128,7 +120,7 @@ img {
 
 input {
     border: 0;
-    font-family: 'LostMINELight', sans-serif;
+    font-family: 'Gotham SSm', sans-serif;
     outline: none;
 }
 
@@ -169,20 +161,9 @@ input {
     align-items: center;
 }
 
-li.logo {
-    font-size: 25px;
-    color: black;
-    font-family: 'LostMINEBold', sans-serif;
-}
-
 li.logo .color {
     color: var(--main-color);
     display: contents;
-}
-
-li.logo #span {
-    font-size: 9px;
-    font-family: 'LostMINERegular', sans-serif;
 }
 
 section#menu-wrapper {
@@ -211,21 +192,6 @@ section#help {
     align-items: baseline;
 }
 
-section#menu-wrapper-full {
-    background: url(../img/bg-fix-menu.jpg);
-    background-size: cover;
-    min-height: 600px;
-}
-
-section#menu-wrapper-full.renewed {
-    background: url(../img/bg-winter.jpg);
-    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
-    background-size: cover;
-    position: relative;
-    user-select: none;
-    min-height: 1300px;
-}
-
 section#menu-wrapper-full.renewed .logo a {
     color: white;
 }
@@ -249,12 +215,6 @@ section#menu-wrapper-full.renewed .menu {
 
 section#menu-wrapper-full.renewed .pros {
     margin-top: 100px;
-}
-
-section#menu-wrapper-404 {
-    background: url(../img/bg-fix-menu.jpg);
-    background-size: cover;
-    min-height: 100vh;
 }
 
 section#menu-wrapper-full-servers {
@@ -334,7 +294,7 @@ section#menu-wrapper-full.renewed .pros {
     font-size: 16px;
     color: white;
     margin-top: 20px;
-    font-family: 'LostMINELight', sans-serif;
+    font-family: 'Gotham SSm', sans-serif;
 }
 
 .gl-desc button {
@@ -1548,7 +1508,7 @@ span.comment-footer {
     background-color: var(--main-color);
     border-radius: 5px;
     font-size: 15px;
-    font-family: 'LostMINERegular';
+    font-family: 'Gotham SSm';
 }
 
 .res-link {
@@ -2835,33 +2795,6 @@ li.ya-share2__list:before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.news-gl0 .tags {
-    color: white;
-    font-size: 10px;
-    margin-top: 10px;
-    position: relative;
-    bottom: 150px;
-    left: 35px;
-    background-color: var(--main-color);
-    border-radius: 5px;
-    padding: 3px 15px;
-    font-family: 'LostMINEUltraLight';
-}
-
-.news-gl0 .small-desc {
-    color: white;
-    position: relative;
-    bottom: 130px;
-    left: 35px;
-    max-width: 60%;
-    max-height: 40px;
-    display: inline-block;
-    overflow: auto;
-    font-weight: lighter;
-    font-family: 'LostMINEUltraLight';
-    font-size: 12px;
-}
-
 .news-gl1 {
     width: 42%;
     margin-top: 20px;
@@ -2915,25 +2848,10 @@ li.ya-share2__list:before {
     line-height: 10px;
 }
 
-input#search-news {
-    border: 2px solid #B0B0B0;
-    padding: 15px;
-    background: url(/front-script/img/search.png) no-repeat scroll 15px 15px;
-    padding-left: 50px;
-    border-radius: 5px;
-    height: 20px;
-    width: 80%;
-}
-
 input#search-news::placeholder {
     text-align: left;
 }
 
-.news-list:hover {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 15%);
-    cursor: url('../img/mouse2.png'), pointer;
 }
 
 .news-list {
@@ -2976,27 +2894,10 @@ input#search-news::placeholder {
     color: #B0B0B0;
 }
 
-.desk-news-list h2 {
-    color: black;
-    font-size: 12px;
-    font-family: 'LostMINEUltraLight';
-}
-
 .desk-news-list .title {
     color: black;
     text-transform: uppercase;
     font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.desk-news-list .tags {
-    color: white;
-    font-size: 10px;
-    background-color: var(--main-color);
-    border-radius: 5px;
-    padding: 3px 15px;
-    font-family: 'LostMINEUltraLight';
-    max-width: fit-content;
     margin-bottom: 10px;
 }
 
@@ -3118,10 +3019,6 @@ input#search-news::placeholder {
     margin-top: 30px;
 }
 
-li.menu-li-hover {
-    cursor: url('../img/mouse2.png'), pointer;
-    height: 50%;
-}
 
 .menu-balance {
     display: none;
@@ -3197,13 +3094,6 @@ li.menu-li-hover {
     font-size: 13px;
 }
 
-.balance-notify {
-    position: absolute;
-    cursor: url('../img/mouse2.png'), pointer;
-    height: 20px;
-    padding-left: 30px;
-}
-
 .balance-notify p {
     background-color: var(--main-color);
     position: absolute;
@@ -3271,14 +3161,6 @@ li.menu-li-hover {
     height: 10px;
     background-color: #ff3000;
     border-radius: 5px;
-}
-
-.statusReaded {
-    background-color: transparent !important;
-    width: 24px !important;
-    min-width: 24px !important;
-    height: 24px !important;
-    background-image: url(https://klauncher.ru/front-script/img/delete.png);
 }
 
 img.lk-head {
@@ -3503,10 +3385,6 @@ button#klcodeBtn {
     transition: 0.3s;
 }
 
-.full .pager i:hover {
-    color: var(--main-color);
-    cursor: url('../img/mouse2.png'), pointer;
-}
 
 .kl-code-top {
     display: flex;
@@ -3560,27 +3438,6 @@ button#klcodeBtn {
     margin-top: 20px;
     color: #a1a1a1;
     text-align: center;
-}
-
-.ops-stat p {
-    text-decoration: underline;
-    margin-left: 10px;
-    cursor: url('../img/mouse2.png'), pointer;
-}
-
-.st-title p {
-    width: 180px;
-    height: 30px;
-    font-size: 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 1px var(--main-color);
-    background-color: var(--main-color);
-    color: white;
-    cursor: url(../img/mouse2.png), pointer;
 }
 
 .st-title {
@@ -3684,12 +3541,6 @@ button#klcodeBtn {
     font-size: 11px;
 }
 
-#refLink:hover {
-    color: var(--main-color);
-    text-decoration-line: underline;
-    cursor: url(../img/mouse2.png), pointer;
-}
-
 section#bureaucracy {
     padding-top: 20px;
 }
@@ -3711,23 +3562,6 @@ section#bureaucracy div#title {
 /*.show-password-btn {
     pointer-events: all;
 }*/
-
-.show-password-btn {
-    background: url("../img/eyez.png") center no-repeat;
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    float: right;
-    top: -50px;
-    right: -42%;
-    pointer-events: all;
-}
-
-.show-password-btn.shown {
-    background: url("../img/eyeo.png") center no-repeat;
-    background-size: contain;
-}
 
 canvas:focus {
     outline: none;
@@ -3759,7 +3593,6 @@ canvas:focus {
 
 .bonusButton {
     color: white;
-    cursor: url(../img/mouse2.png), pointer;
     border-radius: 5px;
     background-color: var(--main-color);
     display: inline-block;
@@ -3796,60 +3629,9 @@ canvas:focus {
     z-index: 250;
 }
 
-.dl-ready#browser-chrome {
-    position: absolute;
-    left: 100px;
-    bottom: 20px;
-    width: 50%;
-    height: 300px;
-    background: url('/front-script/img/dlArrow.png') no-repeat;
 }
 
-.dl-ready#browser-msie,
-.dl-ready#browser-netscape {
-    position: absolute;
-    bottom: 20px;
-    left: 45%;
-    width: 100px;
-    height: 300px;
-    background: url('/front-script/img/dlArrowDown.png') no-repeat center;
-}
 
-.dl-ready#browser-firefox {
-    position: absolute;
-    top: 0;
-    right: 6%;
-    width: 300px;
-    height: 300px;
-    background: url('/front-script/img/dlArrowUp.png') no-repeat center;
-}
-
-.dl-ready#browser-opera {
-    position: absolute;
-    top: 10%;
-    right: 6%;
-    width: 300px;
-    height: 300px;
-    background: url('/front-script/img/dlArrowUp.png') no-repeat center;
-}
-
-.dl-ready#browser-yandex,
-.dl-ready#browser-safari {
-    position: absolute;
-    top: 0;
-    right: -2%;
-    width: 300px;
-    height: 300px;
-    background: url('/front-script/img/dlArrowUp.png') no-repeat center;
-}
-
-.dl-ready#browser-safari {
-    position: absolute;
-    top: 0;
-    right: -2%;
-    width: 300px;
-    height: 300px;
-    background: url('/front-script/img/dlArrowUp.png') no-repeat center;
 }
 
 span.dl-ready-span {
@@ -3865,14 +3647,6 @@ span.dl-ready-span#browser-chrome {
     bottom: 30%;
 }
 
-span.dl-ready-span#browser-firefox,
-span.dl-ready-span#browser-yandex,
-span.dl-ready-span#browser-safari,
-span.dl-ready-span#browser-opera {
-    position: absolute;
-    left: 40%;
-    top: 35%;
-}
 
 .dl-ready-av-safe {
     border-style: dashed;
@@ -4043,23 +3817,12 @@ input:checked+.slider:before {
 
 /* Rounded sliders */
 
-.slider.round {
-    border-radius: 26px;
-    cursor: url(../img/mouse2.png), pointer;
-}
 
 .slider.round:before {
     border-radius: 50%;
 }
 
-.button-upload-skin {
-    width: 15px;
-    height: 19px;
-    background: url(../img/upload.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-}
+
 
 .skin-notification {
     background: white;
@@ -4168,10 +3931,6 @@ a.skins-status {
     padding-top: 20px;
 }
 
-.lk-back:hover {
-    color: var(--main-color);
-    cursor: url(../img/mouse2.png), pointer;
-}
 
 .new-modal {
     width: 100%;
