@@ -43,32 +43,34 @@ html {
 }
 
 
-button {
+body, html {
+    padding: 0;
+    font-family: 'LostMINERegular', sans-serif;
+    margin: 0;
+    cursor: url('../img/mouse.png'), auto;
+    background-color: #fff;
+}
 
+a, button, input[type="button"], input[type="submit"] {
+    text-decoration: none;
+    border: 0;
+}
+
+button {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-    font-family: 'Gotham SSm', sans-serif;
+    font-family: 'LostMINERegular', sans-serif;
 }
 
-button:active,
-button:focus {
+button:active, button:focus {
     outline: none;
 }
 
 button::-moz-focus-inner {
     border: 0;
-}
-
-img {
-    pointer-events: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 /* Ð¡Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ð¿Ð»ÐµÐ¹ÑÑ…Ð¾Ð»Ð´ÐµÑ€Ñ‹ Ñƒ ÑÑƒÐ¼Ð±Ð¸Ñ‚Ð¾Ð² Ð¿Ð¾ Ñ†ÐµÐ½Ñ‚Ñ€Ñƒ */
